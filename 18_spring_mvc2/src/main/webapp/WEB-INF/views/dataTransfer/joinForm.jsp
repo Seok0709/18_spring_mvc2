@@ -6,7 +6,7 @@
 <title>회원가입폼</title>
 </head>
 <body>
-	<form action="transfer3" method="post"> 
+	<form action="vTOc/transfer3" method="post"> 
 		<fieldset>
 			<legend>회원가입</legend>
 			<p> 아이디 :   <input type="text" name="id" placeholder="아이디를 입력하세요." /></p>
@@ -19,9 +19,9 @@
 		    <input type="hidden" name="addData2" value="추가된데이터2">
 		    <input type="hidden" name="addData3" value="추가된데이터3">
 		    <!--  
-		    	<p>이미 회원가입이 되어있으면 <a href="transfer5?isMember=yes&isSession=no">로그인으로 이동하기</a></p>
+		    	<p>이미 회원가입이 되어있으면 <a href="vTOc/transfer5?isMember=yes&isSession=no">로그인으로 이동하기</a></p>
 		    -->
-		    	<p>이미 회원가입이 되어있으면 <a href="transfer5/yes/no">로그인으로 이동하기</a></p>
+		    	<p>이미 회원가입이 되어있으면 <a href="vTOc/transfer5/yes/no">로그인으로 이동하기</a></p>
 		</fieldset>	
      </form>
 </body>

@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import com.spring.mvc2.dataTransfer.domain.MemberDto;
 
-@Controller
+@Controller("vTOc") // 중복되는 경로는 Controller에 설정하여 중복되는 url을 줄일 수 있다.
 public class ViewToController {
 
 	/* 
